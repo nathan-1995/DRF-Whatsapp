@@ -1,4 +1,4 @@
-[Heading 1](#-WhatsApp-Integration)
+[Heading 1](#screenshots)
 
 
 # WhatsApp Integration
