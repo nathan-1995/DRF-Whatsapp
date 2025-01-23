@@ -20,7 +20,7 @@ send_whatsapp_message_schema = extend_schema(
             "required": ["sender", "receiver", "content"],
             "example": {
                 "sender": "+14155238886",
-                "receiver": "+94770541166",
+                "receiver": "+########",
                 "content": "Hello, this is a test message from Twilio Whatsapp."
             },
         }
