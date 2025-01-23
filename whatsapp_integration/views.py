@@ -23,6 +23,9 @@ def redirect_to_swagger(request):
 @send_whatsapp_message_schema # Apply the schema to the view
 class SendWhatsAppMessageView(APIView):
     def post(self, request):
+        # Log the request data
+        logger.info(f"Received request data: {request.data}")
+
         # Extract data from request body
         sender = request.data.get('sender')
         receiver = request.data.get('receiver')
