@@ -1,3 +1,5 @@
+[Heading 1](#-WhatsApp-Integration)
+
 
 # WhatsApp Integration
 
@@ -7,6 +9,54 @@ Created a basic Django application that allows the user to execute API whatsapp 
 
 Live hosting of the source code can be found here. 
 http://34.72.205.69:8000/api/docs/swagger/
+
+# How to setup
+## WhatsApp Integration API - Local Setup and Installation
+
+
+#### Step 1
+First, clone the repository to your local machine.
+Open Terminal and run these commands:
+```bash
+git clone https://github.com/nathan-1995/DRF-Whatsapp.git
+```
+```bash
+cd DRF-Whatsapp
+```
+```bash
+python -m venv venv
+```
+```bash
+pip install -r requirements.txt
+```
+
+#### Step 2:
+Create a .env file in the project root and add your Twilio credentials:
+
+`TWILIO_ACCOUNT_SID=your_account_sid`
+
+`TWILIO_AUTH_TOKEN=your_auth_token`
+
+`TWILIO_PHONE_NUMBER=your_twilio_phone_number`
+
+#### Step 3:
+Run and make sure all necessary migrations are created and applied:
+```bash
+python manage.py migrate
+```
+And create a superuser:
+```bash
+python manage.py createsuperuser
+```
+#### Step 4:
+Launch django:
+```bash
+python manage.py runserver
+```
+Head to:
+```bash
+http://localhost:8000
+```
 
 # Screenshots
 
@@ -22,7 +72,6 @@ http://34.72.205.69:8000/api/docs/swagger/
 
 
 ## Python Libraries
-
 * Django
 * DRF
 * Twilio
