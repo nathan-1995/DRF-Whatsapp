@@ -18,6 +18,9 @@ Created a basic Django application that allows the user to execute API whatsapp 
 Live hosting of the source code can be found here. 
 http://34.72.205.69:8000/api/docs/swagger/
 
+Disclaimer:
+The app uses a free/unverified Twilio account, which may result in rate-limiting errors (Twilio 429) due to too many requests within a short period.
+
 # How to setup
 ## WhatsApp Integration API - Local Setup and Installation
 
@@ -98,4 +101,9 @@ http://localhost:8000
 * Setup swagger for api documention
 * Used github actions to build docker image when changes are pushed to repo.
 
+
+### Design Decisions
+* Twilio API: Twilio is used for WhatsApp messaging because it provides an easy to use API, webhook and easy to implement.
+* CI/CD Setup: GitHub Actions is set up for automatic Docker image builds and deployments to Docker Hub.
+* Dockerization:  Making it easier to deploy anywhere. 
 
