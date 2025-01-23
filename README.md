@@ -12,6 +12,8 @@ http://34.72.205.69:8000/api/docs/swagger/
 
 ![image](https://github.com/user-attachments/assets/9a7ebfa5-25af-4539-83c3-4b7730ddb17a)
 
+![image](https://github.com/user-attachments/assets/abc6ed67-1c1b-4076-8e5e-0a4f9089b0e3)
+
 ![image](https://github.com/user-attachments/assets/304cb642-3ca1-4800-b0a9-e9277e43907c)
 
 ![image](https://github.com/user-attachments/assets/7cb65a87-3b72-435b-b9c3-bdfcd01b211d)
