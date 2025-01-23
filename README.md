@@ -1,7 +1,11 @@
 [Screenshots](#screenshots)
+
 [Setup](#How-to-setup)
+
 [Python Libraries)](#Python-Libraries)
+
 [Features Implemented](#Features-Implemented)
+
 [Bonus](#Bonus)
  
 
