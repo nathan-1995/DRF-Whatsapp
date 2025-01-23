@@ -1,0 +1,25 @@
+# Python
+*.pyc
+*.pyo
+__pycache__
+# Django
+db.sqlite3  # SQLite database file
+*.log  # Log files
+*.pot  # Translation template files
+*.pyc  # Python bytecode files
+*.pyo  # Python optimized bytecode files
+# Static and media files (if not using S3 or other external storage)
+static/
+media/
+# Environment variables and sensitive data
+.env
+# Docker
+docker-compose.yml
+Dockerfile
+# IDEs
+.vscode/
+.idea/
+*.swp
+debug.log
+db.sqlite3
+
