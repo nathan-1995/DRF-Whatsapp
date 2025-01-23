@@ -1,6 +1,6 @@
-[Screenshots](#screenshots)
-
 [Setup](#How-to-setup)
+
+[Screenshots](#screenshots)
 
 [Python Libraries)](#Python-Libraries)
 
