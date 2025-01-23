@@ -1,5 +1,9 @@
-[Heading 1](#screenshots)
-
+[Screenshots](#screenshots)
+[Setup](#How-to-setup)
+[Python Libraries)](#Python-Libraries)
+[Features Implemented](#Features-Implemented)
+[Bonus](#Bonus)
+ 
 
 # WhatsApp Integration
 
@@ -85,7 +89,7 @@ http://localhost:8000
 * Logging and error handling.
 * Added basic test case
 
-### Bonus Points
+### Bonus
 * Setup asynchronous method to send whatsapp message.
 * Setup swagger for api documention
 * Used github actions to build docker image when changes are pushed to repo.
